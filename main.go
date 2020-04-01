@@ -73,7 +73,7 @@ func getslots(url string) {
 }
 
 func main() {
-	url := "http://nimbus-papi-000-staging.mist.pvt:8080/api/v1"
+	url := "<nimbus-url>"
 	fmt.Println("Topology list:")
 	gettopologylist(url)
 	fmt.Println("supervisor list:")
